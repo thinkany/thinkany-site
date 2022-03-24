@@ -1,0 +1,39 @@
+// Breakpoints
+//
+$xxl: 1920px;
+$xl: 1800px;
+$mxl: 1600px;
+$ml: 1350px;
+$l: 1200px; // 13" laptop
+$t: 1024px;
+$h: 950px;
+$m: 810px;
+$s: 600px;
+
+// Fonts
+//
+$body-font-color: #000;
+$body-default-font-size: 12px;
+$body-font-size: 18px;
+$body-font-line-height: 1.56;
+
+// Colors
+//
+$body-color: #fff;
+$black: #000;
+$white: #fff;
+
+// Animations
+//
+$speed: .25s;
+$speed2: .3s;
+$speed3: .5s;
+$easing: linear;
+$easing-in-out: ease-in-out;
+$easing-cubic: cubic-bezier(0, 0, 0.58, 1);
+
+// Misc
+//
+$header-start-height: 190px;
+$header-start-height-desktop: 226px;
+$header-scroll-height: 66px;

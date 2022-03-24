@@ -1,0 +1,94 @@
+@import "../../assets/css/parts/variables";
+@import "../../assets/css/parts/mixins";
+
+.sec--hero {
+    // height: 75vh;
+
+    // &:first-child {
+    //     margin-top: -40px;
+    //     padding-top: 0;
+    // }
+    
+    // .container {
+    //     height: 100%;
+    //     position: relative;
+    // }
+
+    // img {
+    //     @include objectFit();
+    //     position: relative;
+    //     z-index: 1000;
+    // }
+
+    // .image-page-title {
+    //     letter-spacing: .6;
+    // }
+
+    // h1 {
+    //     line-height: 1.03;
+    //     text-align: center;
+    // }
+
+    // .wrapper {
+
+    //     &-image {
+    //         position: relative;
+    //         height: 100%;
+    //     }
+
+    //     &-meta {
+    //         left: 50%;
+    //         position: absolute;
+    //         top: 50%;
+    //         transform: translate(-50%, -50%);
+    //         z-index: 1001;
+    //     }
+    // }
+
+    // .overlay {
+    //     background-color: rgba($gold, .15);
+    //     display: block;
+    //     height: 100%;
+    //     left: 0;
+    //     pointer-events: none;
+    //     position: absolute;
+    //     top: 0;
+    //     width: 100%;
+    //     z-index: 1001;
+    // }
+
+    // .image {
+    //     &-title, &-page-title {
+    //         color: $white;;
+    //         z-index: 1001;
+    //         // -webkit-text-fill-color: white;
+    //     }
+
+    //     &-page-title {
+    //         margin-bottom: 0;
+    //         text-align: center;
+    //         text-transform: uppercase;
+    //     }
+
+    // }
+
+    // @include bp($t) {
+    //     height: auto;
+
+    //     .container {
+    //         margin-bottom: 100px;
+    //         max-width: 1600px;
+    //         padding: 0 20px;
+    //     }
+
+    //     .image-page-title {
+    //         letter-spacing: .84;
+    //     }
+
+    //     + .sec--gallery {
+    //         margin-top: -100px;
+    //     }
+
+    // }
+
+}

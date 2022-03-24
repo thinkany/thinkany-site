@@ -1,0 +1,84 @@
+@import "../../assets/css/parts/variables";
+@import "../../assets/css/parts/mixins";
+.sec--full-width-wysiwyg {
+    // padding: 60px 0;
+
+    // .container {
+    //     max-width: 944px;
+    // }
+
+    // h2 {
+    //     margin-bottom: 20px;
+    // }
+
+    // table {
+    //     margin-bottom: 16px;
+    //     &.privacy {
+    //         th {
+    //             background-color: $gold;
+    //             border-bottom: 1px solid $black;
+    //             border-top: 1px solid $black;
+    //             border-left: 1px solid $black;
+    //             padding: 12px;
+    //             &:last-child {
+    //                 border-right: 1px solid $black;
+    //             }
+    //         }
+    //         td {
+    //             vertical-align: middle;
+    //             text-align: center;
+    //             &:first-child {
+    //                 text-align: left;
+    //             }
+    //         }
+    //     }
+    // }
+
+    // ol {
+    //     list-style-type: none;
+    //     list-style-position: outside;
+    //     counter-reset: li; 
+        
+    //     li{ 
+    //         font-size: 14px;
+    //         height: auto;
+    //         line-height: 18px;
+    //         padding: 0 0 0 50px;
+    //         position: relative;
+    //         margin-left: 0;
+    //         &:before {
+    //             counter-increment: li;
+    //             content: counter(li, decimal-leading-zero);
+    //             display: block;
+    //             left: 0;
+    //             position: absolute;
+    //         }
+    //         &:after {
+    //             content: '\2014';
+    //             color: $gold;
+    //             font-weight: bold;
+    //             position: absolute;
+    //             top: 0px;
+    //             left: 30px;
+    //             // transform: translateY(-50%);
+    //         } 
+            
+    //     }
+    // }
+
+
+    // @include bp($l) {
+
+    //     h1 {
+    //         font-size: 34px;
+    //         margin-bottom: 10px;
+    //     }
+
+    //     .container {
+    //         &.col-thin {
+    //             max-width: 592px;
+    //         }
+    //     }
+
+    // }
+}

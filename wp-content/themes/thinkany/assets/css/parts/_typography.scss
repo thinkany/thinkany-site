@@ -1,0 +1,158 @@
+// @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body {
+    color: $body-font-color;
+    font-weight: normal;
+    font-size: $body-default-font-size;
+    line-height: $body-font-line-height;
+    letter-spacing: .48px;
+
+    @include bp($l) {
+        font-size: $body-font-size;
+        letter-spacing: .72px;
+    }
+
+}
+
+h1, .h1 {
+    font-size: 60px;
+    letter-spacing: 2.4px;
+    @include bp($l) {  
+        
+    }
+}
+
+h2 {
+    font-size: 20px;
+    letter-spacing: .8px;
+    line-height: 1.2;
+
+    @include bp($m) {
+        font-size: 28px;
+        letter-spacing: 1.28;
+        line-height: 1.19;;
+    }
+    @include bp($t) {
+        font-size: 34px;
+        line-height: 1.18;
+        letter-spacing: 1.36px;
+    }
+}
+
+p {
+    letter-spacing: .56px;
+    line-height: 1.71;
+    margin-bottom: 16px;
+
+    a {
+        &:not(.btn) {
+            text-decoration: underline;
+        }
+    }
+
+    @include bp($m) {
+        font-size: 14px;
+    }
+
+    @include bp($t) {
+        font-size: 18px;
+    }
+}
+
+strong {
+    font-weight: bold;
+}
+
+// blockquote {
+//     position: relative;
+
+//     p {
+//         font-size: 20px;
+//         letter-spacing: .8px;
+//         line-height: 1.2;
+//         &:before, &:after {
+//             display: inline-block;
+//         }
+
+//         &:first-child {
+//             &:before {
+//                 content: '“';
+//                 position: absolute;
+//                 left: -6px;
+//             }
+//         }
+
+//         &:last-child {
+//             &:after {
+//                 content: '”';
+//             }
+//         }
+
+//     }
+
+//     & + p {
+//         font-size: 10px;
+//         letter-spacing: .6px;
+//         margin-top: 10px;
+//         text-transform: uppercase;
+//     }
+
+//     @include bp($t) {
+//         p {
+//             font-size: 34px;
+//             letter-spacing: 1.36;
+//             line-height: 1.12;
+//             margin-top: 50px;
+
+//             &:first-child {
+//                 &:before {
+//                     left: -12px;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+main {
+    ul,ol {
+        margin-bottom: 16px;
+        li {
+            margin-bottom: 8px;
+            margin-left: 32px;
+            &:last-child {
+                margin-bottom: 0;
+            }        
+        }
+    }
+
+    ul {
+        list-style: disc;
+    }
+
+    ol {
+        list-style: number;
+    }
+}
+
+// .small {
+//     font-size: 8px;
+//     font-weight: bold;
+//     letter-spacing: .48px;
+//     line-height: 1.13;
+//     @include bp($t) {
+//         font-size: 10px;
+//         letter-spacing: .6px;
+//         line-height: 1.2;
+//     }
+// }
+
+// .large {
+//     font-size: 43px;
+//     line-height: 1;
+
+//     @include bp($t) {
+//         font-size: 70px;
+//     }
+
+// }

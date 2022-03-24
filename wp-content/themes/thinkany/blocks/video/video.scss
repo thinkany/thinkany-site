@@ -1,0 +1,102 @@
+@import "../../assets/css/parts/variables";
+@import "../../assets/css/parts/mixins";
+
+.sec--video {
+    // height: 75vh;
+
+    // &:first-child {
+    //     margin-top: -40px;
+    //     padding-top: 0;
+    // }
+    // .container {
+    //     height: 100%;
+    //     max-width: 1600px;
+    // }
+
+    // h1 {
+    //     line-height: 1.03;
+    //     text-align: center;
+    // }
+
+    // .video-wrapper {
+    //     position: relative;
+    //     height: 100%;
+    // }
+
+    // .overlay {
+
+    //         background-color: rgba($gold, .15);
+    //         display: block;
+    //         height: 100%;
+    //         left: 0;
+    //         pointer-events: none;
+    //         position: absolute;
+    //         top: 0;
+    //         width: 100%;
+    //         z-index: 1001;
+    // }
+
+    // video {
+    //     display: block;
+    //     height: 100%;
+    //     max-width: 100%;
+    //     object-fit: cover;
+    //     pointer-events: none;
+    //     position: relative;
+    //     width: 100%;
+    //     z-index: 1000;       
+    // }
+
+    // .video-footer {
+    //     font-size: 12px;
+    //     left: 50%;
+    //     letter-spacing: .6px;
+    //     text-transform: uppercase;
+    //     text-align: center;
+    //     top: 92.5%;
+    //     transform: translate(-50%, -95%);
+    //     width: 60%;
+    //     // -webkit-text-stroke: .25px #707070; 
+    // } 
+
+    // .video {
+    //     &-title, &-footer {
+    //         z-index: 1001;
+    //         // -webkit-text-fill-color: white;
+    //     }
+
+    //     &-title {
+    //         left: 50%;
+    //         top: 50%;
+    //         transform: translate(-50%, -50%);
+    //         // -webkit-text-stroke: .5px #707070;
+    //     }
+
+    // }
+
+    // video {
+    //     z-index: 1000;
+    // }
+
+
+
+    // @include bp($t) {
+    //     h1 {
+    //         br {
+    //             display: none;
+    //         }
+    //     }
+
+    //     .video {
+
+    //         &-footer {
+    //             top: 95%;
+    //             br {
+    //                 display: none;
+    //             }
+    //         }
+
+    //     }
+
+    // }
+}

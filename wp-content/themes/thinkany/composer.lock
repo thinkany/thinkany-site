@@ -1,0 +1,243 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "b309176cfd8dd5e79e752bd7b29960ed",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "micropackage/acf-block-creator",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/acf-block-creator.git",
+                "reference": "beeadbf8e7d1b8331f88873731df4737bea45633"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/acf-block-creator/zipball/beeadbf8e7d1b8331f88873731df4737bea45633",
+                "reference": "beeadbf8e7d1b8331f88873731df4737bea45633",
+                "shasum": ""
+            },
+            "require": {
+                "micropackage/dochooks": "^1.0",
+                "micropackage/filesystem": "^1.0",
+                "micropackage/singleton": "^1.1",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\ACFBlockCreator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                },
+                {
+                    "name": "Wojtek Szałkiewicz",
+                    "email": "wojtek@szalkiewicz.pl"
+                }
+            ],
+            "description": "ACF Block Creator - automatic block creation add-on for ACF",
+            "time": "2021-04-12T09:25:17+00:00"
+        },
+        {
+            "name": "micropackage/block-loader",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/block-loader.git",
+                "reference": "c91739a14a90b412c8ed79fe22fc28fb4574a19c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/block-loader/zipball/c91739a14a90b412c8ed79fe22fc28fb4574a19c",
+                "reference": "c91739a14a90b412c8ed79fe22fc28fb4574a19c",
+                "shasum": ""
+            },
+            "require": {
+                "micropackage/dochooks": "^1.0",
+                "micropackage/filesystem": "^1.1",
+                "micropackage/singleton": "^1.1",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\BlockLoader\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                },
+                {
+                    "name": "Wojtek Szałkiewicz",
+                    "email": "wojtek@szalkiewicz.pl"
+                }
+            ],
+            "description": "Block Loader - automatic Gutenberg blocks from template files.",
+            "time": "2021-04-12T09:14:27+00:00"
+        },
+        {
+            "name": "micropackage/dochooks",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/dochooks.git",
+                "reference": "b214c86e334d1ac2680d2c2dfba81425999d8622"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/dochooks/zipball/b214c86e334d1ac2680d2c2dfba81425999d8622",
+                "reference": "b214c86e334d1ac2680d2c2dfba81425999d8622",
+                "shasum": ""
+            },
+            "require": {
+                "micropackage/singleton": "^1.1",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
+                "phpcompatibility/php-compatibility": "^9.3",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "bin": [
+                "bin/dump-hooks"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\DocHooks\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                }
+            ],
+            "description": "DocHooks - annotated WordPress hooks",
+            "time": "2021-07-22T13:40:45+00:00"
+        },
+        {
+            "name": "micropackage/filesystem",
+            "version": "1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/filesystem.git",
+                "reference": "a686c7c2d7c7443c4cf6dc55dbd2283a6e219b06"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/filesystem/zipball/a686c7c2d7c7443c4cf6dc55dbd2283a6e219b06",
+                "reference": "a686c7c2d7c7443c4cf6dc55dbd2283a6e219b06",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "phpunit/phpunit": "^6.5.5",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\Filesystem\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                }
+            ],
+            "description": "Wrapper for WordPress' Filesystem for easier file manipulations.",
+            "time": "2020-06-15T11:06:50+00:00"
+        },
+        {
+            "name": "micropackage/singleton",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/micropackage/singleton.git",
+                "reference": "bc69d8ff767cfcfad9a80729c5dc4dcfc89aaf6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/micropackage/singleton/zipball/bc69d8ff767cfcfad9a80729c5dc4dcfc89aaf6c",
+                "reference": "bc69d8ff767cfcfad9a80729c5dc4dcfc89aaf6c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+                "phpcompatibility/php-compatibility": "^9.1",
+                "wp-coding-standards/wpcs": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Micropackage\\Singleton\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Jakub Mikita",
+                    "email": "jakub@bracketspace.com"
+                }
+            ],
+            "description": "Singleton implementation",
+            "time": "2020-01-28T14:10:39+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

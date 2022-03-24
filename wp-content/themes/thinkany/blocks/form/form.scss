@@ -1,0 +1,137 @@
+@import "../../assets/css/parts/variables";
+@import "../../assets/css/parts/mixins";
+
+.sec--form {
+
+    // &.stack {
+    //     padding: 60px 0;
+
+    //     .form {
+    //         .col-wrapper:last-child {
+    //             position: relative;
+    //             padding-bottom: 135px;
+    //         }
+    //         .btn {
+    //             position: absolute;
+    //             top: 50%;
+    //             transform: translateY(-50%);
+    //         }
+    //     }
+
+    // }
+
+    // .wpcf7-response-output {
+    //     display: none !important;
+    // }
+
+    // .container {
+    //     flex-direction: column;
+    // }
+
+    // .wrapper {
+    //     &-form-intro {
+    //         justify-content: center;
+    //         margin-bottom: 30px;
+    //     }
+    // }
+
+    // h2 {
+    //     margin-bottom: 10px;
+    // }
+
+    // h2, p {
+    //     text-align: center;
+    // }
+
+    // .modal {
+    //     &__container {
+    //         display: flex;
+    //         flex-direction: column;
+    //         justify-content: center;
+    //     }
+    //     &__close {
+    //         height: 25px;
+    //         width: 25px;
+    //         &:before {
+    //             background-image: url(../../../assets/images/icons/close.png);
+    //             background-size: contain;
+    //             background-position: center center;
+    //             background-repeat: no-repeat;
+    //             content: '';
+    //             display: block;
+    //             height: 100%;
+    //             width: 100%;
+    //         }
+    //     }
+    // }
+
+    // @include bp($t) {
+
+    //     .container {
+    //         flex-direction: row;
+    //         justify-content: space-between;
+    //     }
+
+    //     .wrapper {
+    //         &-form-intro {
+    //             margin-bottom: 0;
+    //         }
+    //         &-form {
+    //             flex: 0 0 66.0869%;
+    //         }
+    //     }
+
+    //     h2, p {
+    //         text-align: left;
+    //     }
+
+    //     .modal {
+    //         &__container {
+    //             min-height: 300px;
+    //             min-width: 370px;
+    //         }
+    //     }
+
+    //     &.stack {
+
+    //         .container {
+    //             flex-direction: column;
+    //             justify-content: center;
+    //         }
+
+    //         .wrapper-form-intro {
+    //             margin: 0 auto;
+    //             max-width: 565px;
+    //         }
+
+    //         .wrapper-form {
+    //             margin: 0 auto;
+    //             max-width: 565px;
+    //         }
+
+    //         .form {
+    //             flex-direction: column;
+    //             margin-top: 50px;
+
+    //             &.flex {
+    //                 .col-wrapper {
+    //                     &:first-child {
+    //                         flex: 0 0 0;
+    //                     }
+    //                     &:last-child {
+    //                         width: 100%;
+    //                     }
+    //                 }
+    //             }
+    //         }
+
+    //         .wpcf7-checkbox {
+    //             justify-content: space-between;
+    //         }
+
+
+    //     }
+
+    // }        
+
+}

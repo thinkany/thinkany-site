@@ -1,0 +1,58 @@
+form {
+    label {
+        font-size: 10px;
+        font-weight: bold;
+        letter-spacing: .6px;
+        line-height: 1.2;
+        text-transform: uppercase;
+    }
+    input,
+    textarea {
+        &:focus {
+            outline: none !important;
+        }
+    }
+    input,
+    select {
+        background-color: $white;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-radius: 0;
+        cursor: pointer;
+        width: 100%;
+
+        &[type="text"],
+        &[type="email"] {
+            padding: 0 0 5px 5px;
+        }
+    }
+
+    select {
+        // appearance: none;
+        // background-image: url(../../images/forms/select-arrow.svg);
+        // background-repeat: no-repeat;
+        // background-position: center right 5px;
+        // padding: 0 0 5px 0;
+        // * {
+        //     border-left: 1px solid $gold;
+        //     border-right: 1px solid $gold;
+        // }
+    }
+    input[type="submit"] {
+        // color: $black;
+        // border: 1px solid $black;
+        width: auto;
+    }
+
+    .form.flex {
+        .col-wrapper {
+            display: flex;
+            flex-flow: column;
+        }
+    }
+
+    @include bp($t) {
+ 
+    } // include bp($t)
+}

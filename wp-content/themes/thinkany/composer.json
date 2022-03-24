@@ -1,0 +1,6 @@
+{
+    "require-dev": {
+        "micropackage/acf-block-creator": "^1.0",
+        "micropackage/block-loader": "^1.0"
+    }
+}

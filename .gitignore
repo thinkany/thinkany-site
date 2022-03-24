@@ -1,0 +1,22 @@
+# .gitignore file for WordPress that ignores everything except:
+#
+# - my-theme (except for .sass-cache)
+#
+# based on https://gist.github.com/jdbartlett/444295
+/*
+
+!wp-content
+!.gitignore
+
+wp-content/*
+!wp-content/themes
+
+wp-content/plugins/*
+
+wp-content/themes/*
+!wp-content/themes/thinkany
+wp-content/themes/thinkany/node_modules
+wp-content/themes/thinkany/vendor
+
+.sass-cache
+.DS_Store

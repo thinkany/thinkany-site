@@ -1,0 +1,143 @@
+@import "../../assets/css/parts/variables";
+@import "../../assets/css/parts/mixins";
+
+.sec--quote {
+
+    // padding: 110px 0;
+    // position: relative;
+    // margin: 0 0 100px 0;
+
+    // .quote-bg {
+    //     background-image: url(../../../assets/images/bg/bg-quote@2x.webp);
+    //     background-position: center center;
+    //     background-size: cover;
+    //     background-repeat: repeat-x;
+    //     left: 0;
+    //     position: absolute;
+    //     top: 0;
+    //     height: 100%;
+    //     width: 100%;
+    //     z-index: 0;
+    // }
+
+    // .container {
+    //     padding: 0 30px;
+    //     position: relative;
+    //     z-index: 1;
+    // }
+
+    // .wrapper-quote {
+    //     margin: 0 auto;
+    //     max-width: 525px;
+    //     position: relative;
+    //     width: 100%;
+
+    //     p {
+    //         color: $white;
+    //     }
+
+    //     .quote-quote {
+    //         width: 100%;
+    //         max-width: 480px;
+    //         padding-left: 20px;
+    //         flex: 1;
+    //     }
+
+    //     .quote-by {
+    //         align-self: flex-end;
+    //         margin-right: 0px;
+    //         margin-top: 35px;
+    //     }
+
+    // }
+
+    // .quote {
+
+    //     display: none;
+
+    //     &-quote {
+    //         position: relative;
+    //         font-size: 16px;
+    //         line-height: 1.44;
+    //         &:before,
+    //         &:after {
+    //             color: rgba($gold, .5);
+    //             display: inline-block;
+    //             font-family: $caligor;
+    //             font-size: 134px;
+    //             line-height: .36;
+    //             height: 50px;
+    //             position: absolute;
+    //         }
+    //         &:before {
+    //             content: '“';
+    //             left: -5px;
+    //             top: 40px;
+    //         }
+
+    //         &:after {
+    //             content: '”';
+    //             bottom: -60px;
+    //         }
+    //     }
+
+    //     &-by {
+    //         font-size: 10px;
+    //         font-weight: bold;
+    //         letter-spacing: .6px;
+    //         position: relative;
+    //         text-transform: uppercase;
+    //         &:before {
+    //             background-color: $gold;
+    //             content: '';
+    //             display: inline-block; 
+    //             height: 1px;
+    //             margin-right: 12px;
+    //             position: relative;
+    //             top: -3px;
+    //             width: 75px;
+    //         }
+    //     }
+    // }
+
+    // @include bp($t) {
+
+    //     padding: 220px 0;
+    //     margin: 85px 0;
+
+    //     .container {
+    //         padding: 0 20px;
+    //     }
+
+    //     .quote {
+    //         font-size: 164px;
+
+    //         &-bg {
+    //             background-size: contain;
+    //         }
+
+    //         &-quote {
+    //             &:before,
+    //             &:after {
+    //                 font-size: 164px;
+    //                 line-height: .36;
+    //                 height: 50px;
+    //             }
+    //             &:before {
+    //                 left: -25px;
+    //                 top: 50px;
+    //             }
+    
+    //             &:after {
+    //                 bottom: -60px;
+    //             }                
+    //         }
+    //     }
+        
+    //     .wrapper-quote {
+    //         .quote-by {
+    //             margin-right: 100px;
+    //         }
+    //     }
+    // }
+}
